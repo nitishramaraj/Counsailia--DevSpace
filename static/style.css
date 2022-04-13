@@ -55,6 +55,7 @@ button{
     display: flex;
     padding: 5%;
     justify-content: space-around;
+    padding-bottom: 6%;
 }
 
 .home-page_left .content h1{
@@ -113,22 +114,27 @@ button{
 
 
 .imagess{
-    width: 170.08px;
-    height: 170.08px;
+    width: 150.08px;
+    height: 150.08px;
     object-fit: cover;
-    margin-right:17.01px;
+    margin-right:15.01px;
+    transition: all .7s ease;
+    cursor: pointer;
+
 }
 
 .imagess:hover{
-    width: 180.08px;
-    height: 180.08px;
+    width: 170.08px;
+    height: 170.08px;
+
 }
 
 .round-container{
     border-radius: 31px;
     background-color: #FFC600;
-    padding-top: 16.7px;
-    padding-bottom: 16.7px;
+    padding-top: 10.7px;
+    padding-bottom: 10.7px;
+    padding-left: 0px;
     overflow: hidden;
 }
 
@@ -157,7 +163,7 @@ background-clip: text;
 }
 
 .flowchart-container #main{
-    
+    padding-top: 10%;
     font-size: 2em;
     text-align: center;
     background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
@@ -236,10 +242,10 @@ background-clip: text;
     -webkit-text-fill-color: transparent !important;
     border-image-source:  var(--gradient) !important; 
     text-decoration: none;
-    transition: all .4s ease;
+    transition: all .1s ease;
   }
   
-  .bttn:hover, .bttn:focus {
+  .bttn:hover .bttn:focus {
         background: var(--gradient) !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #fff !important;
@@ -254,7 +260,7 @@ background-clip: text;
     font-weight: bold;
   }
   .counsellors{
-    margin-top:124.18px;
+    margin-top:90.18px;
     margin-bottom: 36px;
 }
 
@@ -286,6 +292,24 @@ img.sizeofvector{
     height: 16%;
     width: 16%;
     object-fit: contain;
+}
+
+.new_btn{
+    font-size: 1.5em;
+    font-weight: 500;
+    
+    padding: 0.1%;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: all .5s ease;
+    /* margin-bottom: 2%; */
+}
+
+.new_btn:hover{
+    padding: 20px;
+    background-color: rgba(88, 0, 255, 1);
+    color: white;
+    margin-bottom: 2%;
 }
 
 
