@@ -46,6 +46,59 @@ button{
 
 /* Main */
 
+/* HOME 1st PAGE */
+.home-page_left{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.home-page_left .content h1{
+    font-weight: 700;
+    font-size: 3em;
+    background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    padding-bottom: 2%;
+  
+}
+
+.home-page_left .content p{
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+
+}
+
+.home-page_right{
+    padding-left: 3%;
+}
+
+.home-page_right .home_image img{
+    width: auto;
+    height: auto;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    *{
+        font-size: 12px;
+    }
+    .home-page_left {
+        flex-wrap: wrap;
+    }
+    .home-page_right .home_image img{
+        justify-content: center ;
+        padding-top: 8%;
+        width: 100%;
+        height: auto;
+        padding-right: 5%;
+    }
+  }
+
+/* END HOME 1st PAGE*/
+
 
 
 
