@@ -1,0 +1,56 @@
+
+
+
+
+/* Header */
+a.space{
+    margin-left:67px;
+    font-family: Lato;
+    font-weight: regular;
+    font-size: 17px;
+    color: rgb(0, 0, 0)!important;
+}
+
+nav.navvbar{
+    padding:50px;
+}
+
+button{
+    font-size: 24px;
+}
+
+.login-button{
+    border: 2px solid #ffc107;
+    margin-left: 30px;
+    background-color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-button:hover{
+    border: 2px solid #ffc107;
+
+}
+.get-started-button{
+    border: 2px solid #ffffff;
+    border: 2px solid #ffc107;
+    font-size: 24px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.get-started-button:hover{
+    border: 2px solid #ffc107;
+    background-color: #eeb404;
+}
+
+
+/* Main */
+
+
+
+
+
+
+
+
+/* Footer */
