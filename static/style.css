@@ -203,6 +203,16 @@ background-clip: text;
     padding-left: 30%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .flowchart-container .flowchart_flex{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .flowchart-container .flowchart_flex .flex-2{
+        padding-left: 10%;
+    }
+}
+
 
 /* END FLOWCHART CONTAINER */
 
