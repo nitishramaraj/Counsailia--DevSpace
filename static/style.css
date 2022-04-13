@@ -6,7 +6,7 @@
 a.space{
     margin-left:67px;
     font-family: Lato;
-    font-weight: regular;
+    font-weight: 600;
     font-size: 17px;
     color: rgb(0, 0, 0)!important;
 }
@@ -16,15 +16,19 @@ nav.navvbar{
 }
 
 button{
-    font-size: 24px;
+    font-size: 30px!important;
+    border-radius: 10px!important;
+}
+
+.get-started{
+    white-space: nowrap;
 }
 
 .login-button{
     border: 2px solid #ffc107;
     margin-left: 30px;
     background-color: white;
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .login-button:hover{
@@ -32,20 +36,20 @@ button{
 
 }
 .get-started-button{
-    border: 2px solid #ffffff;
+   color: rgb(0, 0, 0);
     border: 2px solid #ffc107;
     font-size: 24px;
     font-weight:bold;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 .get-started-button:hover{
     border: 2px solid #ffc107;
     background-color: #eeb404;
+    color:rgb(0, 0, 0);
 }
 
 
 /* Main */
-
 /* HOME 1st PAGE */
 .home-page_left{
     display: flex;
@@ -55,7 +59,7 @@ button{
 
 .home-page_left .content h1{
     font-weight: 700;
-    font-size: 2em;
+    font-size: 3em;
     background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -65,7 +69,7 @@ button{
 }
 
 .home-page_left .content p{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 0.1em;
 
@@ -76,7 +80,6 @@ button{
 }
 
 .home-page_right .home_image img{
-    max-width: 500px;
     width: auto;
     height: auto;
 
@@ -84,7 +87,7 @@ button{
 
 @media only screen and (max-width: 1000px) {
     *{
-        font-size: 15px;
+        font-size: 12px;
     }
     .home-page_left {
         flex-wrap: wrap;
@@ -101,10 +104,122 @@ button{
 /* END HOME 1st PAGE*/
 
 
+  /* CARDS */
+
+.awards{
+    margin-bottom:21.18px;
+}
+
+
+.imagess{
+    width: 170.08px;
+    height: 170.08px;
+    object-fit: cover;
+    margin-right:17.01px;
+}
+
+.imagess:hover{
+    width: 180.08px;
+    height: 180.08px;
+}
+
+.round-container{
+    border-radius: 31px;
+    background-color: #FFC600;
+    padding-top: 16.7px;
+    padding-bottom: 16.7px;
+    overflow: hidden;
+}
+
+
+h2{
+    font-family: Lato;
+    font-weight: bold;
+
+
+    /* Our top counsellors */
+background: linear-gradient(92.28deg, #E900FF 4.62%, #5800FF 65.78%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
 
 
 
+/*cards2*/
+.card {
+    background: #FFC600;
+    border: 1px solid #ffffff;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+    border-radius: 16px;
+  }
+  
+  .bttn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .bttn:hover, .bttn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
+  #vectors{
+    font-size: 18px;
+    color: #102E4A;
+    font-weight: bold;
+  }
+  .counsellors{
+    margin-top:124.18px;
+    margin-bottom: 36px;
+}
+
+.card-title{
+    color: #102E4A;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 7px;
+}
 
 
+h3{
+    font-family: Lato;
+    font-weight: bold;
+}
+
+h3.bottom-schedule{
+    color:#102E4A;;
+    background-color: #FFC600;
+    width:29%;
+    height:20%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+img.sizeofvector{
+    height: 16%;
+    width: 16%;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .card{
+        margin:auto;
+    }}
 
 /* Footer */
