@@ -106,38 +106,49 @@ button{
 /* FLOWCHART CONTAINER */
 .flowchart-container .flowchart_flex{
     display: flex;
-    /* padding-left: 10%;
-    padding-top: 5%;
-    padding-right: 10%; */
+    padding-left: 10%;
+    /* padding-top: 3%; */
+    padding-right: 10%; 
     justify-content: space-around;
 }
 
 .flowchart-container #main{
+    
+    font-size: 2em;
     text-align: center;
     background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
     font-weight: 600;
+    padding-bottom: 3%;
+    
+
 }
 
 .flowchart-container .flowchart_flex h1{
     color:rgba(255, 198, 0, 1);
-    font-size: 2.5em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 600;
     padding-bottom: 2% ;
 }
 
 .flowchart-container .flowchart_flex h2{
+    text-decoration: underline;
     color:rgba(255, 198, 0, 1);
     font-weight: 900;
     padding-bottom: 2% ;
-    font-size: 2em;
+    font-size: 1.25em;
+    cursor: pointer;
 
 }
 .flowchart-container .flowchart_flex p{
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.flowchart-container .flowchart_flex img{
+    width: 200px;
 }
 
 .flowchart-container .flowchart_flex .flex-1{
@@ -145,7 +156,7 @@ button{
 }
 
 .flowchart-container .flowchart_flex .flex-2{
-    /* padding-left: 5%; */
+    padding-left: 30%;
 }
 
 
