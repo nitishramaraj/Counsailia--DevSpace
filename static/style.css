@@ -55,7 +55,7 @@ button{
 
 .home-page_left .content h1{
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2em;
     background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -65,7 +65,7 @@ button{
 }
 
 .home-page_left .content p{
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 600;
     letter-spacing: 0.1em;
 
@@ -76,6 +76,7 @@ button{
 }
 
 .home-page_right .home_image img{
+    max-width: 500px;
     width: auto;
     height: auto;
 
@@ -83,7 +84,7 @@ button{
 
 @media only screen and (max-width: 1000px) {
     *{
-        font-size: 12px;
+        font-size: 15px;
     }
     .home-page_left {
         flex-wrap: wrap;
@@ -99,6 +100,56 @@ button{
 
 /* END HOME 1st PAGE*/
 
+
+
+
+/* FLOWCHART CONTAINER */
+.flowchart-container .flowchart_flex{
+    display: flex;
+    /* padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%; */
+    justify-content: space-around;
+}
+
+.flowchart-container #main{
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(233, 0, 255, 1), rgba(88, 0, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.flowchart-container .flowchart_flex h1{
+    color:rgba(255, 198, 0, 1);
+    font-size: 2.5em;
+    font-weight: 400;
+    padding-bottom: 2% ;
+}
+
+.flowchart-container .flowchart_flex h2{
+    color:rgba(255, 198, 0, 1);
+    font-weight: 900;
+    padding-bottom: 2% ;
+    font-size: 2em;
+
+}
+.flowchart-container .flowchart_flex p{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.flowchart-container .flowchart_flex .flex-1{
+
+}
+
+.flowchart-container .flowchart_flex .flex-2{
+    /* padding-left: 5%; */
+}
+
+
+/* END FLOWCHART CONTAINER */
 
 
 
