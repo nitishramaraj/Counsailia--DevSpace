@@ -109,7 +109,7 @@ button{
   /* CARDS */
 
 .awards{
-    margin-bottom:21.18px;
+    padding-bottom:21.18px;
 }
 
 
@@ -117,7 +117,7 @@ button{
     width: 150.08px;
     height: 150.08px;
     object-fit: cover;
-    margin-right:15.01px;
+    padding:8.01px;
     transition: all .7s ease;
     cursor: pointer;
 
@@ -131,11 +131,14 @@ button{
 
 .round-container{
     border-radius: 31px;
-    background-color: #FFC600;
+    width: 82%;
+    height: fit-content;
+    position: relative;
+    left: 10%;
+    background-color: rgba(255, 198, 0, 0.8);
     padding-top: 10.7px;
     padding-bottom: 10.7px;
-    padding-left: 0px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 
@@ -227,11 +230,12 @@ background-clip: text;
 
 /*cards2*/
 .card {
-    background: #FFC600;
+    background:rgba(255, 198, 0, 0.8);
     border: 1px solid #ffffff;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 2rem;
     border-radius: 16px;
+    
   }
   
   .bttn {
@@ -319,3 +323,81 @@ img.sizeofvector{
     }}
 
 /* Footer */
+footer{
+    background-color:  rgba(26, 26, 61, 1);
+    color: white;
+    height: fit-content;
+}
+footer h1{
+    padding: 2%;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: #ffc107;
+    text-decoration: underline;
+    font-size: 1.25em;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.footer_flex{
+    padding-top: 2%;
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 5%;
+    
+}
+.footer_comp li{
+    list-style: none;
+    padding-top: 4%;
+    /* cursor: pointer; */
+    /* font-weight: 600; */
+}
+.flex-hover li{
+ cursor: pointer;
+}
+ .flex-hover li:hover{
+    text-decoration: underline;
+}
+
+.footer_comp h1{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    
+}
+.footer_comp a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .footer_flex flex-1{
+    display: inline-block;
+
+    
+} */
+
+.footer_comp .social_icons img:hover  {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px){
+    .footer_flex{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: block;
+    }
+
+    .footer_flex .flex-main img{
+        padding-left: 5%;
+        position: relative;
+        left: 20%;
+    }
+
+    
+}
+
+
+
+/* END FOOTER */
