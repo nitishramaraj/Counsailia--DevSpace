@@ -1,4 +1,3 @@
 
-#Counsailia App
+Counsailia 
 
-A tour website made with both Frontend and Backend.
