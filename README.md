@@ -30,3 +30,10 @@ User signup :-
 User forgot password :-
 
 ![image](https://user-images.githubusercontent.com/90630641/163678379-2b584be9-d4af-4d89-9080-3f96060540f6.png)
+
+
+https://brainshop.ai/
+
+https://lottiefiles.com/
+
+https://drive.google.com/file/d/12GZoo04yNuxN-sKR_zQ0Yys5-CITudZc/view
