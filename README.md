@@ -39,6 +39,4 @@ User forgot password :-
 
 https://brainshop.ai/
 
-https://lottiefiles.com/
-
 https://drive.google.com/file/d/12GZoo04yNuxN-sKR_zQ0Yys5-CITudZc/view
