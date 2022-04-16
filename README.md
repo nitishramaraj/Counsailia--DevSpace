@@ -24,6 +24,12 @@ Footer :-
 
 ![image](https://user-images.githubusercontent.com/90630641/163678514-cd2e248d-6c6e-4975-9c4b-4e4fce0366bb.png)
 
+# Database Images
+
+![image](https://user-images.githubusercontent.com/90630641/163679148-c4dc793f-4acd-407a-a9ff-39d36c7ec674.png)
+
+![image](https://user-images.githubusercontent.com/90630641/163679169-c0f719a6-ec44-4c0f-916b-d436208c69bb.png)
+
 
 # A glance into our API Implementation :-
 
